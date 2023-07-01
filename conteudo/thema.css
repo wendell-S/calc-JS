@@ -1,0 +1,113 @@
+body {
+    margin: 0%;
+    background-color: gray;
+    color: yellow;
+    font: normal 20px arial;
+}.titulo {
+    display: flex;
+    justify-content: center;
+}
+.subt {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.calculos {
+    display: flex;
+    justify-content:center
+
+}
+
+button {
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #494848;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+    transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    transform: translateY(0);
+  }
+
+  .nume1 {
+    background-color: #383838;
+    border: 1ex solid none;
+    border-top-width: 1.7em;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    word-wrap: break-word;
+    outline: 7px solid #383838;
+    height: 20px;
+    font-size: 17px;
+    text-align: center;
+    transition: all 1s;
+    max-width: 190px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   
+   .nume1:hover {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
+   
+   .nume1:focus {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
+
+   .nume2 {
+    background-color: #383838;
+    border: 1ex solid none;
+    border-top-width: 1.7em;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    word-wrap: break-word;
+    outline: 7px solid #383838;
+    height: 20px;
+    font-size: 17px;
+    text-align: center;
+    transition: all 1s;
+    max-width: 190px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   
+   .nume2:hover {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
+   
+   .nume2:focus {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
