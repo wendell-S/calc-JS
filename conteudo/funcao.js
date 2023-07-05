@@ -9,4 +9,13 @@ function somar () {
     res.innerHTML = `A soma de ${n1} + ${n2} resulta em ${s}`
 }
 
+function somarvezes () {
+    var n1_v = window.document.getElementById('n1v')
+    var n2_v = window.document.getElementById('n2v')
+    var res_v = window.document.getElementById('res_v')
+    var n1_v = Number (n1_v.value)
+    var n2_v = Number (n2_v.value)
+    var s = n1_v * n2_v
 
+    res_v.innerHTML = `A soma de ${n1_v} vezes ${n2_v} resulta em ${s}`
+}
