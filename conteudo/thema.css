@@ -21,8 +21,8 @@ body {
 
 .calculos {
     display: flex;
-    justify-content:center
-
+    justify-content:center;
+    
 }
 
 button {
@@ -34,6 +34,7 @@ button {
     border: none;
     border-radius: var(--button_radius);
     background: var(--button_outline_color);
+    
   }
   
   .button_top {
