@@ -8,37 +8,57 @@
  
 </head>
 <body>
-    <h1 class="titulo">Projeto basico calc. JS</h1>
-    <p class="subt"><strong>soma</strong></p>
+<h1 class="titulo">Projeto basico calc. JS</h1>
 
-  <div class="calculos">   <!--soma-->
+<div class="moves"> <!--titulo soma-->
+  <p class="subt"><strong>soma</strong></p>
+</div>
+
+<div class="calculos">   <!--soma-->
     
-    <input class="nume1" type="number" name="numero1" id="numero1">
-    <input class="nume2" type="number" name="numero2" id="numero2">
+  <input class="nume1" type="number" name="numero1" id="numero1">
+  <input class="nume2" type="number" name="numero2" id="numero2">
+
     <div class="button">
-    <button><span class="button_top" value="somar" onclick="somar()"> Button</span></button>
-  </div>
-  </div> 
-
- 
-
-    <div class="result" id="res"> Resultado </div>
-
-    <div class="calculos">   <!--multi-->
-      <input class="nume1" type="number" name="numero1v" id="n1v">
-      <input class="nume2" type="number" name="numero2v" id="n2v">
-      <button><span class="button_top" value="somar" onclick="somarvezes()"> Button</span></button>
+      <button>
+        <span class="button_top" value="somar" onclick="somar()">Somar</span>
+      </button>
     </div>
-    
-    <div class="result" id="res_v"> Resultado </div>
+</div> 
 
-    <div class="calculos">  <!--DIVISAO-->
-      <input class="nume1" type="number" name="numero1v" id="n1div">
-      <input class="nume2" type="number" name="numero2v" id="n2div">
-      <button><span class="button_top" value="somar" onclick="somardiv()"> Button</span></button>
-    </div>
+<div class="result" id="res"> Resultado </div> <!--resposta da soma-->
+
+<div class="moves"> <!--titulo vezes-->
+  <p class="subt"><strong>vezes</strong></p>
+</div>
+
+<div class="calculos">   <!--multi-->
+
+  <input class="nume1" type="number" name="numero1v" id="n1v">
+  <input class="nume2" type="number" name="numero2v" id="n2v">
+
+  <button>
+    <span class="button_top" value="somar" onclick="somarvezes()">Vezes</span>
+  </button>
+</div>
     
-    <div class="result" id="res_div"> Resultado </div>
+<div class="result" id="res_v"> Resultado </div> <!--resultado de vezes-->
+
+<div class="moves">
+  <p class="subt"><strong>divisão</strong></p>
+</div>
+
+<div class="calculos">  <!--DIVISAO-->
+
+  <input class="nume1" type="number" name="numero1v" id="n1div">
+  <input class="nume2" type="number" name="numero2v" id="n2div">
+
+  <button>
+    <span class="button_top" value="somar" onclick="somardiv()">Dividir</span>
+  </button>
+</div>
+    
+<div class="result" id="res_div"> Resultado </div> <!--resultado da divisao-->
 
 <script src="/conteudo/funcao.js"></script>
 

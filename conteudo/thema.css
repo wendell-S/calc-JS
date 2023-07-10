@@ -3,13 +3,26 @@ body {
     background-color: gray;
     color: yellow;
     font: normal 20px arial;
-}.titulo {
+    padding: 10px;
+    
+}
+
+.titulo {
     display: flex;
     justify-content: center;
+}
+.moves{
+  display: flex;
+  justify-content: center;
 }
 .subt {
     display: flex;
     justify-content: center;
+    color: rgb(251, 251, 251);
+    background-color: rgb(36, 36, 36);
+    width: 300px;
+    
+
 }
 
 .result {
@@ -22,10 +35,11 @@ body {
 .calculos {
     display: flex;
     justify-content:center;
-    
+    margin: 40px;
 }
 
 button {
+    display: flex;
     --button_radius: 0.75em;
     --button_color: #e8e8e8;
     --button_outline_color: #494848;
@@ -34,7 +48,7 @@ button {
     border: none;
     border-radius: var(--button_radius);
     background: var(--button_outline_color);
-    
+    margin-left: 30px;
   }
   
   .button_top {
@@ -112,3 +126,4 @@ button {
     border-top-width: 0.2em;
     background-color: #f1e8e8;
    }
+   
